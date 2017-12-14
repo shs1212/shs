@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        header{
+            border-bottom: 1px solid gray;
+            padding-left: 20px;
+        }
+        footer{
+            border-top: 1px solid gray;
+            padding: 20px;
+            text-align: center;
+        }
+        .content{
+            display: flex
+        }
+        .content nav{
+            border-right: 1px solid gray;
+        }
+        .content aside{
+            border-left: 1px solid gray;
+            padding: 20px;
+        }
+        nav, aside{
+            flex-basis: 150px;
+            flex-shrink: 0;
+        }
+        main{
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>생활코딩</h1>
+        </header>
+        <section class="content">
+            <nav>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </nav>
+            <main>
+               <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda nam a minus ex ducimus laudantium quos illum, quas similique numquam nobis ab repellat mollitia modi aliquam accusantium, quae aut reiciendis.
+               </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus ea incidunt velit enim sapiente voluptas veniam consectetur ratione hic quam asperiores nisi eveniet odit ullam, perferendis accusantium cupiditate rem, at atque! Repudiandae soluta sapiente quis deserunt natus accusamus recusandae eum optio nihil ad, beatae nam, quae explicabo, necessitatibus rerum harum provident aut blanditiis dolores itaque nulla similique aspernatur ipsa! Porro officia eveniet ut mollitia animi earum nihil quo est, nostrum voluptas, cupiditate veniam! Deleniti, esse ut iusto facilis tempora, ab consequatur, molestiae labore officiis obcaecati, blanditiis consequuntur consectetur laborum illum sequi. Illum minima architecto recusandae quia quae blanditiis omnis soluta temporibus sunt impedit, aliquid nobis cupiditate doloribus sed fuga perspiciatis incidunt consectetur ut fugit esse at nam delectus laborum non id! Voluptates quae eos, reiciendis enim molestias eaque, nihil, quasi harum iste libero iure illo eligendi. Nobis, quis praesentium facere delectus ullam blanditiis laborum error officia aspernatur, similique eaque veritatis assumenda quisquam eos voluptatibus officiis ad, tempora non sapiente magnam repellat optio culpa repudiandae. Nesciunt fugit dolor nobis impedit voluptatum placeat, eum assumenda aliquam porro pariatur, corporis hic praesentium. Optio dolorem iure voluptatem, et saepe perferendis in iusto aspernatur cum eligendi atque reprehenderit magnam neque placeat modi quaerat distinctio nemo!
+                </p>
+            </main>
+            <aside>
+                AD
+            </aside>
+        </section>
+        <footer>
+            <a href="https://www.w3schools.com/" target="_blank" title="HTML SCHOOL">HTML home school</a>
+        </footer>
+    </div>
+</body>
+</html>
